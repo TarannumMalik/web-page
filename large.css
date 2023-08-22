@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+}
+section header {
+    width: 1398px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: cadetblue;
+    box-shadow: 0 0 8px rgba(0, 170, 255);
+    height: 50px;
+}
+.about img {
+    position: absolute;
+    right: -296px;
+    top: 600px;
+    box-shadow: 0 0 3px rgba(0,0,0.5);
+}
+.about .abouts {
+    margin-top: 300px;
+    margin-left: 135px;
+    margin-right: 319px;
+}
+.product {
+    margin-top: 350px;
+    margin-left: 146px;
+    margin-right: -152px;
+}
+.footer {
+    width: 1398px;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+}
+section main{
+    margin-left: 190px;
+}
