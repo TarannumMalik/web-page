@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+}
+section .dropdown{
+    position: absolute;
+    right: 19px;
+    top: 14px;
+    width: 180px;
+    height: 200px;
+    background:  cadetblue;
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 170, 255);
+}
+section .dropdown li{
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+section .dropdown li a{
+    text-decoration: none;
+    color: black;
+
+}
+section .dropdown li a:hover{
+    color: white;
+    text-decoration: underline;
+}
+section .dropdown{
+    font-size: 25px;
+}
+section .dropdown i:hover{
+    color: white;
+    transition: scale 0.2;
+}
+section header .dropdown  i:active{
+    display: block;
+}
+section main p {
+    margin-left: 50px;
+    margin-right: -556px;
+}
+.about .abouts h1 {
+    margin-left: 117px;
+    font-size: 60px;
+}
+section header {
+    width: 1264px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: cadetblue;
+    box-shadow: 0 0 8px rgba(0, 170, 255);
+    height: 50px;
+}
+.about img {
+    position: absolute;
+    right: -774px;
+    top: 600px;
+    box-shadow: 0 0 3px rgba(0,0,0.5);
+}
+.product {
+    margin-top: 350px;
+    margin-left: 106px;
+    margin-right: -732px;
+}
+.footer {
+    width: 1264px;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+}
