@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+section .dropdown{
+    display: none;
+    position: absolute;
+    left: 19px;
+    top: 14px;
+    width: 180px;
+    height: 200px;
+    background:  cadetblue;
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 170, 255);
+}
+section .dropdown li{
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+section .dropdown li a{
+    text-decoration: none;
+    color: black;
+
+}
+section .dropdown li a:hover{
+    color: white;
+    text-decoration: underline;
+}
+section .dropdown{
+    font-size: 25px;
+}
+section .dropdown i:hover{
+    color: white;
+    transition: scale 0.2;
+}
+section header .dropdown  i:active{
+    
+}
+section header {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    background-color: cadetblue;
+    box-shadow: 0 0 8px rgba(0, 170, 255);
+    height: 50px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+section header ul {
+    list-style: none;
+    display: flex;
+}
+section header ul li a{
+    padding: 0 18px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+section header ul li a:hover{
+    color: white;
+    cursor: pointer;
+    text-decoration: underline;
+}
+section header h1{
+    font-size: 39px;
+}
+section header h1 span{
+    color: aliceblue;
+}
+section header .logo{
+    font-size: 22px;
+}
+section header .logo i{
+    padding: 0 5px;
+}
+section header .logo i:hover {
+    color: white;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+section main{
+    margin: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+section main h1 {
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 170px;
+    margin-bottom: 23px;
+}
+section main p{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+section main img{
+    position: absolute;
+    top: 90px;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+/*about*/
+.about{
+    display: flex;
+}
+.about .abouts{
+    margin-top: 300px;
+    margin-left: 50px;
+    margin-right: 450px;
+}
+.about .abouts h1{
+    margin-left: 260px;
+    font-size: 60px;
+}
+.about img{
+    position: absolute;
+    right: 30px;
+    top: 600px;
+    box-shadow: 0 0 3px rgba(0,0,0.5);
+}
+.about img:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 3px rgba(0,0,0.6);
+}
+.product .products .product_item img:hover{
+    transform: scale(1.1);
+}
+
+
+/*product*/
+
+.product{
+    margin-top: 350px;
+}
+.product h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    margin-bottom: 49px;
+}
+.product .products{
+    margin-left:30px ;
+    margin-right: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 50px;
+    
+}
+.product .products .product_item{
+    box-shadow: 0 0 6px rgba(0, 170, 255);
+}
+.product .products .product_item i{
+    color: orange;
+}
+
+
+
+
+/*contact*/
+
+.form{
+    margin-left: 60px;
+}
+.form .forms input{
+    display: flex;
+    flex-direction: row;
+    font-size: 40px;
+}
+.form h1{
+    margin-top: 200px;
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+}
+.footer ul{
+    list-style: none;
+}
