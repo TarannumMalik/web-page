@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+}
+section main {
+    margin-left: 136px;
+}
+.about img {
+    position: absolute;
+    right: -496px;
+    top: 600px;
+    box-shadow: 0 0 3px rgba(0,0,0.5);
+}
+.about p{
+    margin-right: -300px;
+}
+.about .abouts h1 {
+    margin-left: 162px;
+    font-size: 60px;
+}
+.product {
+    margin-top: 350px;
+    margin-left: 146px;
+    margin-right: -352px;
+}
